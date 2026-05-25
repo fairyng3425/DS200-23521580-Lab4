@@ -1,0 +1,35 @@
+
+==============================================================================================================
+                                          BAI 3 - ORDERS BY COUNTRY                                           
+==============================================================================================================
+Customer_Country    Customer_Country_Code  Total_Orders
+-------------------------------------------------------
+Germany             DE                            41754
+France              FR                            12848
+Netherlands         NL                            11629
+Belgium             BE                             5464
+Austria             AT                             5043
+Switzerland         CH                             3640
+United Kingdom      GB                             3382
+Poland              PL                             2139
+Czechia             CZ                             2034
+Italy               IT                             2025
+Spain               ES                             1651
+Portugal            PT                             1336
+Sweden              SE                              975
+Denmark             DK                              905
+Serbia              RS                              746
+Norway              NO                              716
+Slovakia            SK                              534
+Slovenia            SI                              495
+Turkey              TR                              485
+Greece              GR                              412
+Lithuania           LT                              351
+Latvia              LV                              280
+Croatia             HR                              254
+Estonia             EE                              148
+Finland             FI                               81
+Luxembourg          LU                               68
+Andorra             AD                               46
+-------------------------------------------------------
+Rows shown in this table: 27

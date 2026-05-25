@@ -1,0 +1,76 @@
+
+==============================================================================================================
+                                   BAI 1 - READ CSV FILES WITH INFER SCHEMA                                   
+==============================================================================================================
+
+[Orders]
+Rows    : 99441
+Columns : 8
+Schema  :
+root
+ |-- Order_ID: string (nullable = true)
+ |-- Customer_Trx_ID: string (nullable = true)
+ |-- Order_Status: string (nullable = true)
+ |-- Order_Purchase_Timestamp: timestamp (nullable = true)
+ |-- Order_Approved_At: timestamp (nullable = true)
+ |-- Order_Delivered_Carrier_Date: timestamp (nullable = true)
+ |-- Order_Delivered_Customer_Date: timestamp (nullable = true)
+ |-- Order_Estimated_Delivery_Date: timestamp (nullable = true)
+
+
+[Customer_List]
+Rows    : 102727
+Columns : 10
+Schema  :
+root
+ |-- Customer_Trx_ID: string (nullable = true)
+ |-- Subscriber_ID: string (nullable = true)
+ |-- Subscribe_Date: date (nullable = true)
+ |-- First_Order_Date: date (nullable = true)
+ |-- Customer_Postal_Code: string (nullable = true)
+ |-- Customer_City: string (nullable = true)
+ |-- Customer_Country: string (nullable = true)
+ |-- Customer_Country_Code: string (nullable = true)
+ |-- Age: integer (nullable = true)
+ |-- Gender: string (nullable = true)
+
+
+[Order_Items]
+Rows    : 112650
+Columns : 7
+Schema  :
+root
+ |-- Order_ID: string (nullable = true)
+ |-- Order_Item_ID: integer (nullable = true)
+ |-- Product_ID: string (nullable = true)
+ |-- Seller_ID: string (nullable = true)
+ |-- Shipping_Limit_Date: timestamp (nullable = true)
+ |-- Price: double (nullable = true)
+ |-- Freight_Value: double (nullable = true)
+
+
+[Products]
+Rows    : 32951
+Columns : 6
+Schema  :
+root
+ |-- Product_ID: string (nullable = true)
+ |-- Product_Category_Name: string (nullable = true)
+ |-- Product_Weight_Gr: double (nullable = true)
+ |-- Product_Length_Cm: double (nullable = true)
+ |-- Product_Height_Cm: double (nullable = true)
+ |-- Product_Width_Cm: double (nullable = true)
+
+
+[Order_Reviews]
+Rows    : 99270
+Columns : 7
+Schema  :
+root
+ |-- Review_ID: string (nullable = true)
+ |-- Order_ID: string (nullable = true)
+ |-- Review_Score: integer (nullable = true)
+ |-- Review_Comment_Title_En: string (nullable = true)
+ |-- Review_Comment_Message_En: string (nullable = true)
+ |-- Review_Creation_Date: timestamp (nullable = true)
+ |-- Review_Answer_Timestamp: timestamp (nullable = true)
